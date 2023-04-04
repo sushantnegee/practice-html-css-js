@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float and Clear</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #mainBox{
+            width: 50%;
+            margin: auto;
+            /* padding: 20px; */
+            border: 2px solid salmon;
+        }
+        #mainBox Div{
+            border: 2px solid salmon; 
+            /* margin: 10px; */
+        }
+      #inner1 {
+        float: left;
+        width: 48%;
+      }
+      #inner2 {
+        float: left;
+        width: 48%;
+      }
+      #inner3 {
+        /* float: left; */
+        clear: left;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainBox">
+      <div id="inner1">
+        1... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa in
+        molestias iure aperiam? Aliquam ad esse at minima rem dolore adipisci,
+        autem nesciunt a fugiat? Animi minima quae perferendis facere corrupti,
+        itaque reprehenderit autem inventore aliquam eos explicabo rerum
+        distinctio iste suscipit magnam rem at dolorum mollitia laudantium
+        officia. Deleniti dolor veniam reprehenderit nesciunt quae debitis
+        consectetur natus placeat cupiditate suscipit saepe dolores nihil facere
+        autem aspernatur corporis consequuntur, amet sint repudiandae laborum
+        culpa molestias. Est nam debitis ad natus aut at, laborum assumenda ut,
+        qui blanditiis, quod quaerat error optio? Placeat ullam qui accusamus,
+        autem excepturi soluta doloribus beatae.
+      </div>
+      <div id="inner2">2...Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa in
+        molestias iure aperiam? Aliquam ad esse at minima rem dolore adipisci,
+        autem nesciunt a fugiat? Animi minima quae perferendis facere corrupti,
+        itaque reprehenderit autem inventore aliquam eos explicabo rerum
+        distinctio iste suscipit magnam rem at dolorum mollitia laudantium
+        officia. Deleniti dolor veniam reprehenderit nesciunt quae debitis
+        consectetur natus placeat cupiditate suscipit saepe dolores nihil facere
+        autem aspernatur corporis consequuntur, amet sint repudiandae laborum
+        culpa molestias. Est nam debitis ad natus aut at, laborum assumenda ut,
+        qui blanditiis, quod quaerat error optio? Placeat ullam qui accusamus,
+        autem excepturi soluta doloribus beatae.</div>
+      <div id="inner3">3...Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa in
+        molestias iure aperiam? Aliquam ad esse at minima rem dolore adipisci,
+        autem nesciunt a fugiat? Animi minima quae perferendis facere corrupti,
+        itaque reprehenderit autem inventore aliquam eos explicabo rerum
+        distinctio iste suscipit magnam rem at dolorum mollitia laudantium
+        officia. Deleniti dolor veniam reprehenderit nesciunt quae debitis
+        consectetur natus placeat cupiditate suscipit saepe dolores nihil facere
+        autem aspernatur corporis consequuntur, amet sint repudiandae laborum
+        culpa molestias. Est nam debitis ad natus aut at, laborum assumenda ut,
+        qui blanditiis, quod quaerat error optio? Placeat ullam qui accusamus,
+        autem excepturi soluta doloribus beatae.</div>
+    </div>
+  </body>
+</html>
